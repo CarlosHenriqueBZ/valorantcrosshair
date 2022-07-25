@@ -24,6 +24,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
+      
         heading={<>Valorant <HighlightedText>Crosshairs</HighlightedText></>}
         description="The place to find your favourite professional Valorant crosshairs."
         imageSrc="https://media2.giphy.com/media/e2HHUuc4x2VaHIhjlf/giphy.gif?cid=790b76110ecb6fad817060daa1735e97eda355372eff99f2&rid=giphy.gif&ct=s"
@@ -51,13 +52,13 @@ export default () => {
             imageSrc: shopIconImageSrc,
             title: "Twitter",
             description: "Stay informed about the news",
-            url: "https://twitter.com/DeltaFiveV"
+            url: "https://twitter.com/SmartShineGG"
           },
           {
             imageSrc: chefIconImageSrc,
             title: "Youtube",
             description: "Tutorials and More!",
-            url: "https://youtube.com/wavechz"
+            url: "https://www.youtube.com/c/wavecompany"
           },
           {
             imageSrc: celebrationIconImageSrc,
@@ -76,7 +77,7 @@ export default () => {
         heading={<>Streamers <HighlightedText>Love Us</HighlightedText></>}
       />
       <DownloadApp
-        text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
+        text={<>People around you are playing <HighlightedTextInverse> Valorant.</HighlightedTextInverse></>}
       />
       <Footer />
     </AnimationRevealPage>

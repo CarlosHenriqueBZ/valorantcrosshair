@@ -64,7 +64,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Brazil",
   tabs = {
-    Starters: [
+    Popular: [
       {
         imageSrc:
           "https://i.redd.it/vrxiha72ijv81.png",
@@ -130,9 +130,9 @@ export default ({
         code: "0;P;c;7;o;1;f;0;0b;0;1t;1;1l;3;1o;1;1a;1;1m;0;1f;0",
       }
     ],
-    Main: getRandomCards(),
+  /*   Main: getRandomCards(),
     Soup: getRandomCards(),
-    Desserts: getRandomCards()
+    Desserts: getRandomCards() */
   }
 }) => {
 
