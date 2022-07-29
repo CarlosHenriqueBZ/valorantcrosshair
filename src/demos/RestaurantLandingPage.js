@@ -16,11 +16,11 @@ import celebrationIconImageSrc from "images/instagram--v1.png";
 import shopIconImageSrc from "images/twitter.png";
 
 export default () => {
-  const Subheading = tw.span`tracking-wider text-sm font-medium justify-center`;
-  const HighlightedText = tw.span`bg-teal-500 text-gray-100  justify-center px-4 transform -skew-x-12 inline-block`;
+  const Subheading = tw.span`tracking-wider text-sm font-medium`;
+  const HighlightedText = tw.span`bg-teal-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
-  const imageCss = tw`rounded-4xl  justify-center`;
+  const imageCss = tw`rounded-4xl`;
   return (
     <AnimationRevealPage>
       <Hero
@@ -29,7 +29,7 @@ export default () => {
         description="The place to find your favourite professional Valorant crosshairs."
         imageSrc="https://media2.giphy.com/media/e2HHUuc4x2VaHIhjlf/giphy.gif?cid=790b76110ecb6fad817060daa1735e97eda355372eff99f2&rid=giphy.gif&ct=s"
         imageCss={imageCss}
-        imageDecoratorBlob={false}
+        imageDecoratorBlob={true}
         watchVideoButtonText="Tutorial"
       />
       
