@@ -218,7 +218,7 @@ export default ({
                         copy()
                       }}
                       >
-                        {infoKey === card.code ? "Copy " : "Click to Copy"}  
+                        {infoKey === card.code ? "Copied " : "Click to Copy"}  
                        </CardButton>
                     </CardHoverOverlay>
                   </CardImageContainer>
